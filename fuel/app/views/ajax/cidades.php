@@ -1,0 +1,1 @@
+<?php echo Form::select('data[cidade_id]', null, $cidades, array('id' => 'cidade_id', 'class' => ''));?>

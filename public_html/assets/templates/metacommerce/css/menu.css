@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* --- Accordion --- */
+
+/* Formatação*/
+#wrapper {
+	margin-top:20px;
+}
+
+#main h2 {background-color: #FFF}
+
+#side, #side h2, #side h3 {
+	background: none;
+	color:#e3e3e3;
+}
+
+/* --- Links --- */
+
+.accordion a{text-decoration:none;}
+
+/*#side a {
+	line-height:18px;
+	font-family: 'dinregular';
+	font-size: 15px;
+	color:#FFF;
+	border:none;
+	text-decoration:none;
+	font-weight:normal;
+	display:block; 
+	color:#f0f0f0; 
+	text-decoration:none; 
+	font-weight:normal;
+}*/
+
+/*#side a:hover, #side a:active, #side a:focus {
+	background-color: #FFF;
+	font-family: 'swis721_cn_btroman';
+	font-size: 13px;
+	color:#06638f;
+	text-decoration:none;
+	font-weight:normal;
+	text-decoration:none; 
+	font-weight:normal;
+}*/
+
+/*Estrutura*/
+
+.js #main .accordion {visibility:hidden}
+
+.js #side .accordion {display:none}
+
+.accordion {margin:0; padding:0;  }
+
+.accordion li {list-style-type:none; margin:0;}
+
+/*.accordion li.last-child {list-style-type:none}*/
+
+#side ul.accordion ul {margin:0; padding:0;}
+
+.accordion .outer {background: #fff}
+
+.accordion .inner {margin-bottom:0; padding:.5em 20px 1em; overflow:hidden}
+
+.accordion .inner .inner {padding-bottom:0}
+
+.accordion .h3 {padding-top:3px;}
+
+.accordion p {margin:.5em 0 1em}
+
+.switch {margin-bottom:.5em}
+
+/*  
+  Add styles for all links in the 'accordion':
+.accordion a {...}
+*/    
+
+.subcategoria {
+	background: #FFF;
+}
+/*menu 1*/
+a.menu1 {
+	font-family: 'swis721_cn_btroman';
+	font-size: 15px;
+	color:#06638f;
+	padding: 8px 5px 0 30px;
+	width:195px;
+	display:block;
+	height:27px;
+	background-image: url(../img/menu/back_categoria1.gif); 
+	background-repeat: no-repeat; 
+}
+a.menu1:hover {
+		color:#1f9dd8;
+}
+
+a.menu1.open {background-image: url(../img/menu/back_categoria2.gif); color:#1f9dd8;}
+/*menu 2*/
+
+/*links*/
+.last-child a.trigger2 {
+	background-image:none;
+	padding-left:1px;
+	font-weight:normal;
+	height: 20px;
+	width:182px;
+	padding-left:30px;
+	padding-top:5px;
+	line-height:20px;
+	color: #666;
+	background-color: #FFF;
+	font-family: 'swis721_cn_btroman';
+	font-size: 15px;
+	padding-bottom:5px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #eae9e9;
+}
+.last-child a.trigger2:hover {
+	color:#1f9dd8;
+}
+
+#main .switch a.open {background:transparent none}
+
+#side a.active{font-weight:700; color:#f72; text-decoration:none}
+	
+
+/*MENU SITE*/
+#menu_site {
+	width: 100%;
+	height: 41px;
+	background-image:url(../img/menu-site/background.gif);
+	background-repeat:repeat-x;
+}
+
+#menu {
+	margin: 0 auto;
+	width: 740px;
+	height: 41px;
+	padding-left:214px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#menu ul {padding:0; margin:0;}
+#menu li a span{display: none;}
+#menu li{float: left; display: inline; padding:0; margin:0;}
+#menu li a{height: 41px; float: left; display: inline;}
+
+#menu li a.home{width: 91px; background: url(../img/menu-site/home1.gif)}
+#menu li a.home:hover{width: 91px; background: url(../img/menu-site/home2.gif)}
+#menu li.active a.home{width: 91px; background: url(../img/menu-site/home3.gif)}
+
+#menu li a.produtos{width: 101px; background: url(../img/menu-site/produtos1.gif)}
+#menu li a.produtos:hover{width: 101px; background: url(../img/menu-site/produtos2.gif)}
+#menu li.active a.produtos{width: 101px; background: url(../img/menu-site/produtos3.gif)}
+
+#menu li a.empresa{width: 115px; background: url(../img/menu/empresa01.jpg)}
+#menu li a.empresa:hover{width: 115px; background: url(../img/menu/empresa02.jpg)}
+#menu li.active a.empresa{width: 115px; background: url(../img/menu/empresa03.jpg)}
+
+#menu li a.assistencia{width: 169px; background:  url(../img/menu-site/assistencia1.gif)}
+#menu li a.assistencia:hover{width: 169px; background:  url(../img/menu-site/assistencia2.gif)}
+#menu li.active a.assistencia{width: 169px; background:  url(../img/menu-site/assistencia3.gif)}
+
+#menu li a.duvidas{width: 174px; background: url(../img/menu-site/duvidas1.gif)}
+#menu li a.duvidas:hover{width: 174px; background: url(../img/menu-site/duvidas2.gif)}
+#menu li.active a.duvidas{width: 174px; background: url(../img/menu-site/duvidas3.gif)}
+
+#menu li a.download{width: 112px; background: url(../img/menu-site/downloads1.gif)}
+#menu li a.download:hover{width: 112px; background: url(../img/menu-site/downloads2.gif)}
+#menu li.active a.download{width: 112px; background: url(../img/menu-site/downloads3.gif)}
+
+#menu li a.contato{width: 91px; background: url(../img/menu-site/contato1.gif)}
+#menu li a.contato:hover{width: 91px; background: url(../img/menu-site/contato2.gif)}
+#menu li.active a.contato{width: 91px; background: url(../img/menu-site/contato3.gif)}

@@ -1,0 +1,8 @@
+-Criar um banco de dados MySQL
+-Importar o arquivo _metacommerce.sql no banco de dados criado
+-Configurar a conexão no FuelPHP (desenvolvimento ou produção)
+-Sua loja está pronta para vender!
+-Para acessar a frente de loja, entre na pasta public_html através do servidor web
+-Para acessar a área administrativa acesse /adm no final da URL.
+-Para enviar/receber e-mails configure o arquivo config/email.php
+-Dados para acesso administrativo: suporte@metacommerce.com.br - 123

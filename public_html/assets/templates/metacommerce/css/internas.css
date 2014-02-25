@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*PRODUTOS*/
+.precoCar{
+	font-size:15px;
+}
+strike{
+	font-size:15px;
+	color:red;
+}
+.prazo{
+	color:red;
+}
+.base_produtos {
+	width: 679px;
+	height:auto;
+	font-family: 'swis721_cn_btroman';
+	font-size:15px;
+	color: #666;
+	margin: 8px 0 30px 0;
+}
+.base_produtos a {
+	color: #666;
+	text-decoration:none;
+}
+.base_produtos a:hover {
+	color: #999;
+	text-decoration:underline;
+}
+.base_produtos h1 {
+	margin: 15px 0 0 0;
+	padding:0;
+	font-family: 'swis721_cn_btroman';
+	font-size:25px;
+	color: #1f9dd8;
+}
+.base_produtos h2 {
+	padding:0;
+	font-family: 'swis721_cn_btroman';
+	font-size:16px;
+	font-weight:bold;
+	color: #666;
+	margin:3px 0 20px 0;
+}
+.base_produtos h3 {
+	padding:0;
+	font-family: 'swis721_cn_btroman';
+	font-size:20px;
+	font-weight:bold;
+	color: #06638f;
+	margin:3px 0 10px 0;
+}
+.base_produtos p{
+	padding:0;
+	margin:0 0 15px 0;
+	font-size:15px;
+}
+
+.base_produtos ul {
+	margin:0 0 20px 0;
+	padding:0;
+}
+.base_produtos li {
+	margin:0;
+	padding:2px 0 0 0;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #1f9dd8;
+	font-weight:bold;
+	list-style-position: inside;
+}
+.base_produtos input {
+	width:250px;
+	height:20px;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #06638f;
+}
+.base_produtos textarea {
+	width:535px;
+	height:70px;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #06638f;
+}
+.ckeditor, .ckeditor p, .ckeditor p span {
+	padding:0;
+	margin:0 0 15px 0;
+	font-size:15px !important;
+	font-family: 'swis721_cn_btroman' !important;
+}
+.produto_info {
+	float:right;
+	width: 300px;
+	height:auto;
+}
+.produto_diversos {
+	clear:both;
+	width:679px;
+	height:auto;
+	margin-top:40px;
+}
+.base_produtos input {
+	width:250px;
+	height:20px;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #06638f;
+}
+.base_produtos textarea {
+	width:535px;
+	height:70px;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #06638f;
+}
+.produto_foto {
+	float:left;
+	width: 360px;
+	height:auto;
+}
+.preco {
+	margin: 20px 0 0 0;
+	padding:0;
+	font-family: swis721_cn_btroman;
+	font-size:30px;
+	color: #1f9dd8;
+	font-weight: bold;
+}
+.produtos_relacionados {
+	width: 679px;
+	height:auto;
+	margin-top: 20px;
+}
+.produtos_relacionados a {
+	color:#FFF;
+	text-decoration:none;
+}
+.produtos_relacionados a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+.subtitulo{
+	padding:0;
+	font-family: 'swis721_cn_btroman';
+	font-size:16px;
+	font-weight:bold;
+	color: #666;
+	margin:3px 0 10px 0;
+}
+.texto_comun{
+	padding:0;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #666;
+	height:20px;
+}
+.tabela_carrinho {
+	border: 1px solid #CCC;
+	font-family: 'swis721_cn_btroman';
+	font-size:15px;
+	color: #666;
+}
+.tabela_carrinho input {
+	width:50px;
+	height:20px;
+	font-family: 'swis721_cn_btroman';
+	font-size:12px;
+	color: #06638f;
+	text-align:center;
+}
+/*DUVIDAS*/
+
+.box_duvidas {
+	width:100%;
+	height:auto;
+	padding: 25px 0 18px 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #e5e5e5;
+}
+/*ERRO*/
+.erro {
+	text-align:left;
+	font-family: 'swis721_cn_btroman';
+	font-size:13px;
+	color: #FFF;
+	background-color:#1f9dd8;
+	padding:10px;
+}
+.erro p {
+	margin:0 0 0 5px;
+	padding:0;
+}
